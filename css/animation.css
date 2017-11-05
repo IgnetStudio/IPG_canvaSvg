@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  margin: 1em;
+}
+
+path {
+  fill: #eee;
+  stroke: none;
+}
+
+svg {
+  height: 80%;
+}
