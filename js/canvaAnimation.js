@@ -9,7 +9,7 @@ orig.addEventListener('mouseout', stopDrawingPath, false);
 function startDrawingPath() {
     length = 0;
     orig.style.stroke = '#D08770';
-    timer = setInterval(increaseLength, 1000 / drawFPS);
+    timer = setInterval(increaseLength, 100 / drawFPS);
 }
 
 function increaseLength() {
