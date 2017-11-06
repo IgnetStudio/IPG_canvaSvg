@@ -1,6 +1,11 @@
+body {
+    background: #ECEFF4;
+}
+
 h2 {
     font-family: 'Saira Semi Condensed', sans-serif;
     margin: 15px 0 0 15px;
+    color: #2E3440;
 }
 
 #building {
